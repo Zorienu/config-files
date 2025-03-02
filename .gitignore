@@ -5,3 +5,5 @@
 !.gitignore
 !kanata
 !kanata/*
+!alacritty
+!alacritty/*
