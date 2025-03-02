@@ -1,0 +1,25 @@
+(defsrc
+  caps
+  lctrl
+)
+
+(defalias
+  escctrl (tap-hold 100 100 esc lctrl)
+)
+
+;; Should go first
+(deflayer base
+  @escctrl
+  @arrows
+)
+
+(deflayermap (fn_layer)
+  h left
+  j down
+  k up
+  l right
+)
+
+(defalias
+  arrows (layer-while-held fn_layer)
+)
