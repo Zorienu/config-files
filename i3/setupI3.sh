@@ -1,5 +1,5 @@
-laptopMonitor=eDP-1
-hdmi=HDMI-1
+laptopMonitor=eDP-1-1
+hdmi=HDMI-1-2
 scale=1.0
 
 xrandr --output $laptopMonitor --scale $scale
