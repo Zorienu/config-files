@@ -230,3 +230,6 @@ bindsym $mod+s exec shutter -s
 
 # Initialize compton
 # exec compton --vsync opengl-swc --backend glx
+
+# Notifications: make sure to install dunst `sudo apt-get install dunst`
+exec dunst
